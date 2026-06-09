@@ -1,1 +1,260 @@
-css code here (also from chatgpt)
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+scroll-behavior:smooth;
+}
+
+body{
+background:#0f172a;
+color:white;
+overflow-x:hidden;
+}
+
+/* Navbar */
+
+header{
+position:fixed;
+width:100%;
+top:0;
+z-index:1000;
+background:rgba(0,0,0,0.3);
+backdrop-filter:blur(10px);
+}
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 8%;
+}
+
+.logo{
+font-size:28px;
+font-weight:bold;
+color:#38bdf8;
+}
+
+nav ul{
+display:flex;
+gap:25px;
+list-style:none;
+}
+
+nav a{
+text-decoration:none;
+color:white;
+transition:0.3s;
+}
+
+nav a:hover{
+color:#38bdf8;
+}
+
+/* Hero */
+
+.hero{
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+background:linear-gradient(
+135deg,
+#0f172a,
+#1e293b,
+#2563eb
+);
+}
+
+.hero-content{
+animation:fadeUp 1.5s ease;
+}
+
+.hero h1{
+font-size:4rem;
+}
+
+.hero span{
+color:#38bdf8;
+}
+
+.hero h2{
+margin:15px 0;
+color:#94a3b8;
+}
+
+.hero p{
+max-width:700px;
+margin:auto;
+font-size:1.1rem;
+line-height:1.8;
+}
+
+.btn{
+display:inline-block;
+margin-top:25px;
+padding:14px 35px;
+background:#38bdf8;
+color:white;
+border-radius:30px;
+text-decoration:none;
+transition:0.4s;
+border:none;
+cursor:pointer;
+}
+
+.btn:hover{
+transform:translateY(-5px);
+background:#0ea5e9;
+}
+
+/* About */
+
+.slide{
+padding:120px 10%;
+display:flex;
+justify-content:center;
+}
+
+.card{
+max-width:900px;
+padding:40px;
+background:rgba(255,255,255,0.1);
+backdrop-filter:blur(10px);
+border-radius:20px;
+animation:slideIn 2s ease;
+}
+
+/* Skills */
+
+#skills{
+padding:100px 10%;
+}
+
+.section-title{
+text-align:center;
+font-size:3rem;
+margin-bottom:50px;
+}
+
+.skills-container{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:30px;
+}
+
+.skill-card{
+background:#1e293b;
+padding:40px;
+border-radius:20px;
+text-align:center;
+transition:0.5s;
+}
+
+.skill-card:hover{
+transform:translateY(-15px);
+box-shadow:0 0 25px #38bdf8;
+}
+
+.skill-card i{
+font-size:50px;
+margin-bottom:20px;
+color:#38bdf8;
+}
+
+/* Showcase Slides */
+
+.showcase{
+display:flex;
+height:60vh;
+}
+
+.showcase-slide{
+flex:1;
+display:flex;
+align-items:center;
+justify-content:center;
+font-size:2rem;
+font-weight:bold;
+transition:0.5s;
+cursor:pointer;
+}
+
+.showcase-slide:nth-child(1){
+background:#2563eb;
+}
+
+.showcase-slide:nth-child(2){
+background:#0ea5e9;
+}
+
+.showcase-slide:nth-child(3){
+background:#38bdf8;
+}
+
+.showcase-slide:hover{
+flex:2;
+}
+
+/* Contact */
+
+#contact{
+padding:100px 10%;
+text-align:center;
+}
+
+.contact-box{
+background:rgba(255,255,255,0.08);
+padding:50px;
+border-radius:20px;
+}
+
+/* Footer */
+
+footer{
+text-align:center;
+padding:20px;
+background:#020617;
+}
+
+/* Animations */
+
+@keyframes fadeUp{
+from{
+opacity:0;
+transform:translateY(50px);
+}
+to{
+opacity:1;
+transform:translateY(0);
+}
+}
+
+@keyframes slideIn{
+from{
+opacity:0;
+transform:translateX(-100px);
+}
+to{
+opacity:1;
+transform:translateX(0);
+}
+}
+
+@media(max-width:768px){
+
+.hero h1{
+font-size:2.5rem;
+}
+
+.showcase{
+flex-direction:column;
+height:auto;
+}
+
+.showcase-slide{
+height:200px;
+}
+}
