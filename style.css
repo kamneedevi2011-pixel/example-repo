@@ -7,8 +7,8 @@ scroll-behavior:smooth;
 }
 
 body{
-background:#0f172a;
-color:white;
+background:#c4ccdd;
+color:#d4dde1;
 overflow-x:hidden;
 }
 
@@ -31,9 +31,9 @@ padding:20px 8%;
 }
 
 .logo{
-font-size:28px;
+font-size:35px;
 font-weight:bold;
-color:#38bdf8;
+color:#e9dbdb;
 }
 
 nav ul{
@@ -44,12 +44,12 @@ list-style:none;
 
 nav a{
 text-decoration:none;
-color:white;
+color:#d01515;
 transition:0.3s;
 }
 
 nav a:hover{
-color:#38bdf8;
+color:#0f6996;
 }
 
 /* Hero */
@@ -62,8 +62,8 @@ align-items:center;
 text-align:center;
 background:linear-gradient(
 135deg,
-#0f172a,
-#1e293b,
+#3d5183,
+#8e8eb4,
 #2563eb
 );
 }
@@ -77,12 +77,12 @@ font-size:4rem;
 }
 
 .hero span{
-color:#38bdf8;
+color:#d42727;
 }
 
 .hero h2{
-margin:15px 0;
-color:#94a3b8;
+margin:20px 0;
+color:#3d86ee;
 }
 
 .hero p{
@@ -96,8 +96,8 @@ line-height:1.8;
 display:inline-block;
 margin-top:25px;
 padding:14px 35px;
-background:#38bdf8;
-color:white;
+background:#4c6a78;
+color:#272222;
 border-radius:30px;
 text-decoration:none;
 transition:0.4s;
@@ -107,7 +107,7 @@ cursor:pointer;
 
 .btn:hover{
 transform:translateY(-5px);
-background:#0ea5e9;
+background:#1d4f65;
 }
 
 /* About */
@@ -119,9 +119,9 @@ justify-content:center;
 }
 
 .card{
-max-width:900px;
-padding:40px;
-background:rgba(255,255,255,0.1);
+max-width:950px;
+padding:50px;
+background:rgb(224 13 13 / 10%);
 backdrop-filter:blur(10px);
 border-radius:20px;
 animation:slideIn 2s ease;
@@ -146,7 +146,7 @@ gap:30px;
 }
 
 .skill-card{
-background:#1e293b;
+background:#2c4e87;
 padding:40px;
 border-radius:20px;
 text-align:center;
@@ -155,13 +155,13 @@ transition:0.5s;
 
 .skill-card:hover{
 transform:translateY(-15px);
-box-shadow:0 0 25px #38bdf8;
+box-shadow:0 0 25px #40494d;
 }
 
 .skill-card i{
 font-size:50px;
 margin-bottom:20px;
-color:#38bdf8;
+color:#4a7387;
 }
 
 /* Showcase Slides */
@@ -183,15 +183,15 @@ cursor:pointer;
 }
 
 .showcase-slide:nth-child(1){
-background:#2563eb;
+background:#5c78b6;
 }
 
 .showcase-slide:nth-child(2){
-background:#0ea5e9;
+background:#095a7e;
 }
 
 .showcase-slide:nth-child(3){
-background:#38bdf8;
+background:#609ebd;
 }
 
 .showcase-slide:hover{
@@ -208,22 +208,22 @@ text-align:center;
 .contact-box{
 background:rgba(255,255,255,0.08);
 padding:50px;
-border-radius:20px;
+border-radius:35px;
 }
 
 /* Footer */
 
-footer{
-text-align:center;
-padding:20px;
-background:#020617;
+footer}
+text-align:mid;
+padding:30px;
+background:#1d36cd;
 }
 
 /* Animations */
 
 @keyframes fadeUp{
 from{
-opacity:0;
+opacity:60;
 transform:translateY(50px);
 }
 to{
@@ -255,6 +255,6 @@ height:auto;
 }
 
 .showcase-slide{
-height:200px;
+height:250px;
 }
 }
