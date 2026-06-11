@@ -7,8 +7,8 @@ scroll-behavior:smooth;
 }
 
 body{
-background:#292b2f;
-color:#f9f5f4;
+background:#532a09;
+color:#2e401c;
 overflow-x:hidden;
 }
 
@@ -19,7 +19,7 @@ position:fixed;
 width:100%;
 top:0;
 z-index:1000;
-background:rgba(0,0,0,0.3);
+background:#532A09;
 backdrop-filter:blur(10px);
 }
 
@@ -33,7 +33,7 @@ padding:20px 8%;
 .logo{
 font-size:35px;
 font-weight:bold;
-color:#e9dbdb;
+color:#BFAB67;
 }
 
 nav ul{
@@ -44,12 +44,12 @@ list-style:none;
 
 nav a{
 text-decoration:none;
-color:#d01515;
+color:#ffffff;
 transition:0.3s;
 }
 
 nav a:hover{
-color:#0f6996;
+color:#2E401C;
 }
 
 /* Hero */
@@ -62,9 +62,9 @@ align-items:center;
 text-align:center;
 background:linear-gradient(
 135deg,
-#3d5183,
-#8e8eb4,
-#2563eb
+#532A09,
+#915C27,
+#BFAB67
 );
 }
 
@@ -77,12 +77,12 @@ font-size:4rem;
 }
 
 .hero span{
-color:#d42727;
+color:#2e401c;
 }
 
 .hero h2{
 margin:20px 0;
-color:#3d86ee;
+color:#2e401c;
 }
 
 .hero p{
@@ -96,8 +96,8 @@ line-height:1.8;
 display:inline-block;
 margin-top:25px;
 padding:14px 35px;
-background:#4c6a78;
-color:#272222;
+background:#532a09;
+color:#2e401c;
 border-radius:30px;
 text-decoration:none;
 transition:0.4s;
@@ -107,7 +107,7 @@ cursor:pointer;
 
 .btn:hover{
 transform:translateY(-5px);
-background:#1d4f65;
+background:#bfab67;
 }
 
 /* About */
@@ -121,7 +121,7 @@ justify-content:center;
 .card{
 max-width:950px;
 padding:50px;
-background:rgb(224 13 13 / 10%);
+background:#bfab67;
 backdrop-filter:blur(10px);
 border-radius:20px;
 animation:slideIn 2s ease;
@@ -146,7 +146,7 @@ gap:30px;
 }
 
 .skill-card{
-background:#2c4e87;
+background:#bfab67;
 padding:40px;
 border-radius:20px;
 text-align:center;
@@ -155,15 +155,14 @@ transition:0.5s;
 
 .skill-card:hover{
 transform:translateY(-15px);
-box-shadow:0 0 25px #40494d;
+box-shadow:0 0 25px #2e401c;
 }
 
 .skill-card i{
 font-size:50px;
 margin-bottom:20px;
-color:#4a7387;
+color:#edffda;
 }
-
 /* Showcase Slides */
 
 .showcase{
@@ -183,15 +182,15 @@ cursor:pointer;
 }
 
 .showcase-slide:nth-child(1){
-background:#5c78b6;
+background:#bfab67;
 }
 
 .showcase-slide:nth-child(2){
-background:#095a7e;
+background:#915c27;
 }
 
 .showcase-slide:nth-child(3){
-background:#609ebd;
+background:#532a09;
 }
 
 .showcase-slide:hover{
@@ -206,7 +205,7 @@ text-align:center;
 }
 
 .contact-box{
-background:rgba(255,255,255,0.08);
+background:#bfab67;
 padding:50px;
 border-radius:35px;
 }
@@ -216,7 +215,7 @@ border-radius:35px;
 footer}
 text-align:mid;
 padding:30px;
-background:#1d36cd;
+background:#915c27;
 }
 
 /* Animations */
